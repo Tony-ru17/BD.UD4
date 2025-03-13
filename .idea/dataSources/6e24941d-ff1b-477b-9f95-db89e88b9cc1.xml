@@ -89,9 +89,9 @@
     </schema>
     <schema id="29" parent="1" name="PUBLIC">
       <AutoIntrospectionLevel>1</AutoIntrospectionLevel>
-      <LastIntrospectionL1Timestamp>2025-03-13.08:24:32</LastIntrospectionL1Timestamp>
+      <LastIntrospectionL1Timestamp>2025-03-13.08:57:17</LastIntrospectionL1Timestamp>
       <LastIntrospectionLevel>1</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-03-13.07:24:34</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-03-13.07:57:20</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="30" parent="1" name="REMOTE_SCHEDULER_AGENT">
@@ -123,15 +123,15 @@
     </schema>
     <schema id="39" parent="1" name="TONI1">
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
-      <CreatedTimestamp>2025-03-13.08:44:02</CreatedTimestamp>
+      <CreatedTimestamp>2025-03-13.09:02:56</CreatedTimestamp>
       <Current>1</Current>
-      <LastIntrospectionL1Timestamp>2025-03-13.08:44:03</LastIntrospectionL1Timestamp>
-      <LastIntrospectionL2Timestamp>2025-03-13.08:44:03</LastIntrospectionL2Timestamp>
-      <LastIntrospectionL3Timestamp>2025-03-13.08:44:03</LastIntrospectionL3Timestamp>
+      <LastIntrospectionL1Timestamp>2025-03-13.09:02:56</LastIntrospectionL1Timestamp>
+      <LastIntrospectionL2Timestamp>2025-03-13.09:02:56</LastIntrospectionL2Timestamp>
+      <LastIntrospectionL3Timestamp>2025-03-13.09:02:56</LastIntrospectionL3Timestamp>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-03-13.07:44:06</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-03-13.08:02:59</LastIntrospectionLocalTimestamp>
       <LastIntrospectionVersion>200820</LastIntrospectionVersion>
-      <ModifiedTimestamp>2025-03-13.08:44:02</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-03-13.09:02:59</ModifiedTimestamp>
       <ObjectId>110</ObjectId>
     </schema>
     <schema id="40" parent="1" name="WMSYS">
@@ -59806,605 +59806,142 @@
       <TargetObjectName>_V$SXGG_TRANSACTION</TargetObjectName>
       <TargetObjectParentName>SYS</TargetObjectParentName>
     </synonym>
-    <table id="7526" parent="39" name="LISTAS_ARTISTA">
-      <CreatedTimestamp>2025-03-13.08:45:31</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:31</ModifiedTimestamp>
-      <ObjectId>77975</ObjectId>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7527" parent="39" name="LISTAS_ARTISTAIND">
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <ObjectId>77980</ObjectId>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7528" parent="39" name="LISTAS_CANCION">
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <ObjectId>77986</ObjectId>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7529" parent="39" name="LISTAS_CIUDAD">
-      <CreatedTimestamp>2025-03-13.08:45:25</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:25</ModifiedTimestamp>
-      <ObjectId>77973</ObjectId>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7530" parent="39" name="LISTAS_ESTADO_PROVINCIA">
-      <CreatedTimestamp>2025-03-13.08:45:18</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:18</ModifiedTimestamp>
-      <ObjectId>77971</ObjectId>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7531" parent="39" name="LISTAS_GENERO">
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <ObjectId>77983</ObjectId>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7532" parent="39" name="LISTAS_GENERO_CANCION">
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <ObjectId>77988</ObjectId>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7533" parent="39" name="LISTAS_GRUPO">
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <ObjectId>77978</ObjectId>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7534" parent="39" name="LISTAS_LISTA">
-      <CreatedTimestamp>2025-03-13.08:45:42</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <ObjectId>77990</ObjectId>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7535" parent="39" name="LISTAS_PAIS">
-      <CreatedTimestamp>2025-03-13.08:44:02</CreatedTimestamp>
+    <table id="7526" parent="39" name="LISTAS_LISTA">
+      <CreatedTimestamp>2025-03-13.09:02:56</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:44:02</ModifiedTimestamp>
-      <ObjectId>77966</ObjectId>
+      <ModifiedTimestamp>2025-03-13.09:02:56</ModifiedTimestamp>
+      <ObjectId>78002</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="7536" parent="39" name="LISTAS_POSICION_LISTA">
-      <CreatedTimestamp>2025-03-13.08:45:42</CreatedTimestamp>
+    <table id="7527" parent="39" name="LISTAS_PAIS">
+      <CreatedTimestamp>2025-03-13.09:02:59</CreatedTimestamp>
       <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <ObjectId>77992</ObjectId>
+      <ModifiedTimestamp>2025-03-13.09:02:59</ModifiedTimestamp>
+      <ObjectId>78004</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <column id="7537" parent="7526" name="COD">
+    <table id="7528" parent="39" name="LISTAS_PROVINCIA_ESTADO">
+      <CreatedTimestamp>2025-03-13.09:03:01</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-03-13.09:03:01</ModifiedTimestamp>
+      <ObjectId>78007</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="7529" parent="7526" name="COD">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>NUMBER(4)|0s</StoredType>
     </column>
-    <column id="7538" parent="7526" name="NOMBREARTISTICO">
-      <Position>2</Position>
-      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
-    </column>
-    <column id="7539" parent="7526" name="NOM_CIUDAD">
-      <Position>3</Position>
-      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
-    </column>
-    <column id="7540" parent="7526" name="NOM_ESTADO_PROV">
-      <Position>4</Position>
-      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
-    </column>
-    <column id="7541" parent="7526" name="NOM_PAIS">
-      <Position>5</Position>
-      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
-    </column>
-    <foreign-key id="7542" parent="7526" name="FK_ARTISTA">
-      <ColNames>NOM_ESTADO_PROV
-NOM_PAIS
-NOM_CIUDAD</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:31</ModifiedTimestamp>
-      <OnDelete>restrict</OnDelete>
-      <RefKeyName>PK_CIUDAD</RefKeyName>
-      <RefTableName>LISTAS_CIUDAD</RefTableName>
-    </foreign-key>
-    <index id="7543" parent="7526" name="SYS_C008594">
-      <ColNames>COD</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:31</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:31</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77976</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <index id="7544" parent="7526" name="SYS_C008595">
-      <ColNames>NOMBREARTISTICO</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:31</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:31</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77977</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7545" parent="7526" name="SYS_C008594">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:31</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C008594</UnderlyingIndexName>
-    </key>
-    <key id="7546" parent="7526" name="SYS_C008595">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:31</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <UnderlyingIndexName>SYS_C008595</UnderlyingIndexName>
-    </key>
-    <check id="7547" parent="7527" name="MORIRDESPUES">
-      <ColNames>FMUERTE
-FNAC</ColNames>
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <Predicate>FMUERTE&gt;FNAC</Predicate>
-    </check>
-    <column id="7548" parent="7527" name="COD">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
-    </column>
-    <column id="7549" parent="7527" name="NOMBREREAL">
+    <column id="7530" parent="7526" name="NOMBRE">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>VARCHAR2(100 byte)|0s</StoredType>
     </column>
-    <column id="7550" parent="7527" name="FNAC">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StoredType>DATE|0s</StoredType>
-    </column>
-    <column id="7551" parent="7527" name="FMUERTE">
-      <Position>4</Position>
-      <StoredType>DATE|0s</StoredType>
-    </column>
-    <foreign-key id="7552" parent="7527" name="SYS_C008604">
-      <ColNames>COD</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C008594</RefKeyName>
-      <RefTableName>LISTAS_ARTISTA</RefTableName>
-    </foreign-key>
-    <index id="7553" parent="7527" name="SYS_C008602">
-      <ColNames>COD</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77981</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <index id="7554" parent="7527" name="SYS_C008603">
-      <ColNames>NOMBREREAL</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77982</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7555" parent="7527" name="SYS_C008602">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C008602</UnderlyingIndexName>
-    </key>
-    <key id="7556" parent="7527" name="SYS_C008603">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <UnderlyingIndexName>SYS_C008603</UnderlyingIndexName>
-    </key>
-    <column id="7557" parent="7528" name="COD">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
-    </column>
-    <column id="7558" parent="7528" name="TITULO">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
-    </column>
-    <column id="7559" parent="7528" name="ANYO">
-      <Position>3</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
-    </column>
-    <column id="7560" parent="7528" name="COD_ARTISTA">
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
-    </column>
-    <foreign-key id="7561" parent="7528" name="SYS_C008610">
-      <ColNames>COD_ARTISTA</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C008594</RefKeyName>
-      <RefTableName>LISTAS_ARTISTA</RefTableName>
-    </foreign-key>
-    <index id="7562" parent="7528" name="SYS_C008609">
-      <ColNames>COD</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77987</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7563" parent="7528" name="SYS_C008609">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C008609</UnderlyingIndexName>
-    </key>
-    <column id="7564" parent="7529" name="NOMBRE">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
-    </column>
-    <column id="7565" parent="7529" name="NOM_ESTADO_PROV">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
-    </column>
-    <column id="7566" parent="7529" name="NOM_PAIS">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
-    </column>
-    <foreign-key id="7567" parent="7529" name="FK_CIUDAD_ESTADO">
-      <ColNames>NOM_ESTADO_PROV
-NOM_PAIS</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:25</ModifiedTimestamp>
-      <OnDelete>restrict</OnDelete>
-      <RefKeyName>PK_ESTADO_PROV</RefKeyName>
-      <RefTableName>LISTAS_ESTADO_PROVINCIA</RefTableName>
-    </foreign-key>
-    <index id="7568" parent="7529" name="PK_CIUDAD">
-      <ColNames>NOMBRE
-NOM_PAIS
-NOM_ESTADO_PROV</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:25</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:25</ModifiedTimestamp>
-      <ObjectId>77974</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7569" parent="7529" name="PK_CIUDAD">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:25</ModifiedTimestamp>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PK_CIUDAD</UnderlyingIndexName>
-    </key>
-    <column id="7570" parent="7530" name="NOMBRE">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
-    </column>
-    <column id="7571" parent="7530" name="NOM_PAIS">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
-    </column>
-    <foreign-key id="7572" parent="7530" name="SYS_C008591">
-      <ColNames>NOM_PAIS</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:18</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C008589</RefKeyName>
-      <RefTableName>LISTAS_PAIS</RefTableName>
-    </foreign-key>
-    <index id="7573" parent="7530" name="PK_ESTADO_PROV">
-      <ColNames>NOMBRE
-NOM_PAIS</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:18</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:18</ModifiedTimestamp>
-      <ObjectId>77972</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7574" parent="7530" name="PK_ESTADO_PROV">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:18</ModifiedTimestamp>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PK_ESTADO_PROV</UnderlyingIndexName>
-    </key>
-    <column id="7575" parent="7531" name="COD">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
-    </column>
-    <column id="7576" parent="7531" name="NOMBRE">
-      <Position>2</Position>
-      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
-    </column>
-    <index id="7577" parent="7531" name="SYS_C008605">
-      <ColNames>COD</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77984</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <index id="7578" parent="7531" name="SYS_C008606">
-      <ColNames>NOMBRE</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77985</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7579" parent="7531" name="SYS_C008605">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C008605</UnderlyingIndexName>
-    </key>
-    <key id="7580" parent="7531" name="SYS_C008606">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <UnderlyingIndexName>SYS_C008606</UnderlyingIndexName>
-    </key>
-    <column id="7581" parent="7532" name="COD_CANCION">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
-    </column>
-    <column id="7582" parent="7532" name="COD_GENERO">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
-    </column>
-    <foreign-key id="7583" parent="7532" name="SYS_C008612">
-      <ColNames>COD_CANCION</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C008609</RefKeyName>
-      <RefTableName>LISTAS_CANCION</RefTableName>
-    </foreign-key>
-    <foreign-key id="7584" parent="7532" name="SYS_C008613">
-      <ColNames>COD_GENERO</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C008605</RefKeyName>
-      <RefTableName>LISTAS_GENERO</RefTableName>
-    </foreign-key>
-    <index id="7585" parent="7532" name="SYS_C008611">
-      <ColNames>COD_CANCION
-COD_GENERO</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77989</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7586" parent="7532" name="SYS_C008611">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C008611</UnderlyingIndexName>
-    </key>
-    <check id="7587" parent="7533" name="DISOLVERDESPUES">
-      <ColNames>FCREACION
-FDISOLUCION</ColNames>
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <Predicate>FDISOLUCION&gt;FCREACION</Predicate>
-    </check>
-    <column id="7588" parent="7533" name="COD">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
-    </column>
-    <column id="7589" parent="7533" name="FCREACION">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>DATE|0s</StoredType>
-    </column>
-    <column id="7590" parent="7533" name="FDISOLUCION">
-      <Position>3</Position>
-      <StoredType>DATE|0s</StoredType>
-    </column>
-    <foreign-key id="7591" parent="7533" name="SYS_C008599">
-      <ColNames>COD</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C008594</RefKeyName>
-      <RefTableName>LISTAS_ARTISTA</RefTableName>
-    </foreign-key>
-    <index id="7592" parent="7533" name="SYS_C008598">
-      <ColNames>COD</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:41</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77979</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7593" parent="7533" name="SYS_C008598">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:41</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C008598</UnderlyingIndexName>
-    </key>
-    <check id="7594" parent="7534" name="ANYOLISTA">
-      <ColNames>ANYO</ColNames>
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <Predicate>ANYO&gt;0</Predicate>
-    </check>
-    <column id="7595" parent="7534" name="COD">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
-    </column>
-    <column id="7596" parent="7534" name="NOMBRE">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
-    </column>
-    <column id="7597" parent="7534" name="ANYO">
+    <column id="7531" parent="7526" name="ANYO">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>NUMBER(4)|0s</StoredType>
     </column>
-    <column id="7598" parent="7534" name="FUENTE">
+    <column id="7532" parent="7526" name="FUENTE">
       <Position>4</Position>
       <StoredType>VARCHAR2(120 byte)|0s</StoredType>
     </column>
-    <column id="7599" parent="7534" name="AUTOR">
+    <column id="7533" parent="7526" name="AUTOR">
       <Position>5</Position>
       <StoredType>VARCHAR2(50 byte)|0s</StoredType>
     </column>
-    <index id="7600" parent="7534" name="SYS_C008616">
+    <index id="7534" parent="7526" name="SYS_C008635">
       <ColNames>COD</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:42</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
+      <CreatedTimestamp>2025-03-13.09:02:56</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-13.09:02:56</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77991</ObjectId>
+      <ObjectId>78003</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7601" parent="7534" name="SYS_C008616">
+    <key id="7535" parent="7526" name="SYS_C008635">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-03-13.09:02:56</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C008616</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C008635</UnderlyingIndexName>
     </key>
-    <column id="7602" parent="7535" name="CODIGO">
+    <column id="7536" parent="7527" name="CODIGO">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>NUMBER(3)|0s</StoredType>
     </column>
-    <column id="7603" parent="7535" name="NOMBRE">
+    <column id="7537" parent="7527" name="NOMBRE">
       <Position>2</Position>
       <StoredType>VARCHAR2(50 byte)|0s</StoredType>
     </column>
-    <index id="7604" parent="7535" name="SYS_C008588">
+    <index id="7538" parent="7527" name="SYS_C008636">
       <ColNames>CODIGO</ColNames>
-      <CreatedTimestamp>2025-03-13.08:44:02</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:44:02</ModifiedTimestamp>
+      <CreatedTimestamp>2025-03-13.09:02:59</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-13.09:02:59</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77967</ObjectId>
+      <ObjectId>78005</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <index id="7605" parent="7535" name="SYS_C008589">
+    <index id="7539" parent="7527" name="SYS_C008637">
       <ColNames>NOMBRE</ColNames>
-      <CreatedTimestamp>2025-03-13.08:44:02</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:44:02</ModifiedTimestamp>
+      <CreatedTimestamp>2025-03-13.09:02:59</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-13.09:02:59</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77968</ObjectId>
+      <ObjectId>78006</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7606" parent="7535" name="SYS_C008588">
+    <key id="7540" parent="7527" name="SYS_C008636">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:44:02</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-03-13.09:02:59</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C008588</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C008636</UnderlyingIndexName>
     </key>
-    <key id="7607" parent="7535" name="SYS_C008589">
+    <key id="7541" parent="7527" name="SYS_C008637">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:44:02</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-03-13.09:02:59</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <UnderlyingIndexName>SYS_C008589</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C008637</UnderlyingIndexName>
     </key>
-    <check id="7608" parent="7536" name="POSPOSITIVA">
-      <ColNames>POSICION</ColNames>
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <Predicate>POSICION&gt;0</Predicate>
-    </check>
-    <column id="7609" parent="7536" name="COD_CANCION">
+    <column id="7542" parent="7528" name="COD">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
+      <StoredType>NUMBER(3)|0s</StoredType>
     </column>
-    <column id="7610" parent="7536" name="COD_LISTA">
-      <NotNull>1</NotNull>
+    <column id="7543" parent="7528" name="NOMBRE">
       <Position>2</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
     </column>
-    <column id="7611" parent="7536" name="POSICION">
-      <NotNull>1</NotNull>
+    <column id="7544" parent="7528" name="COD_PAIS">
       <Position>3</Position>
-      <StoredType>NUMBER(4)|0s</StoredType>
+      <StoredType>NUMBER(3)|0s</StoredType>
     </column>
-    <foreign-key id="7612" parent="7536" name="SYS_C008620">
-      <ColNames>COD_CANCION</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
+    <foreign-key id="7545" parent="7528" name="SYS_C008639">
+      <ColNames>COD_PAIS</ColNames>
+      <ModifiedTimestamp>2025-03-13.09:03:01</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C008609</RefKeyName>
-      <RefTableName>LISTAS_CANCION</RefTableName>
+      <RefKeyName>SYS_C008636</RefKeyName>
+      <RefTableName>LISTAS_PAIS</RefTableName>
     </foreign-key>
-    <foreign-key id="7613" parent="7536" name="SYS_C008621">
-      <ColNames>COD_LISTA</ColNames>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
+    <index id="7546" parent="7528" name="SYS_C008638">
+      <ColNames>COD</ColNames>
+      <CreatedTimestamp>2025-03-13.09:03:01</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-13.09:03:01</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C008616</RefKeyName>
-      <RefTableName>LISTAS_LISTA</RefTableName>
-    </foreign-key>
-    <index id="7614" parent="7536" name="SYS_C008618">
-      <ColNames>COD_CANCION
-COD_LISTA</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:42</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77993</ObjectId>
+      <ObjectId>78008</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <index id="7615" parent="7536" name="SYS_C008619">
-      <ColNames>POSICION</ColNames>
-      <CreatedTimestamp>2025-03-13.08:45:42</CreatedTimestamp>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>77994</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7616" parent="7536" name="SYS_C008618">
+    <key id="7547" parent="7528" name="SYS_C008638">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-03-13.09:03:01</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C008618</UnderlyingIndexName>
-    </key>
-    <key id="7617" parent="7536" name="SYS_C008619">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-03-13.08:45:42</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <UnderlyingIndexName>SYS_C008619</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C008638</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>
