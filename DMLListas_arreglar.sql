@@ -10,6 +10,7 @@ INSERT INTO LISTAS_LISTA (NOMBRE,ANYO,FUENTE,AUTOR) VALUES ('Las mejores cancion
 INSERT INTO LISTAS_LISTA (NOMBRE,ANYO,FUENTE,AUTOR) VALUES ('Canciones más escuchadas en España en 2020', 2020, 'https://www.elmundo.es/cultura/2020/12/01/5fc60292fdddffdd018b45ab.html', 'Spotify');
 INSERT INTO LISTAS_LISTA (NOMBRE,ANYO,FUENTE,AUTOR) VALUES ('Las 100 mejores canciones Country de todos los tiempos - 2020', 2020, 'https://aztechin.com/las-100-mejores-canciones-country-de-todos-los-tiempos/', 'Carlos Mestre');
 INSERT INTO LISTAS_LISTA (NOMBRE,ANYO,FUENTE,AUTOR) VALUES ('Temazos frikis made in Spain',2015,'https://www.elespanol.com/social/20170324/203230101_0.html','El Español');
+SELECT * FROM LISTAS_LISTA;
 
 INSERT INTO LISTAS_PAIS(NOMBRE) VALUES ('España');
 INSERT INTO LISTAS_PAIS(NOMBRE) VALUES ('Senegal');
