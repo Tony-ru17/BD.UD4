@@ -38,7 +38,7 @@ CREATE TABLE LISTAS_PAIS(
 He quitado nom_pais y la pk compuesta que había, he creado un código como PK y creado código país
 para que haga referencia a listas_pais. Además he cambiado el nombre de la tabla de LISTAS_ESTADO_PROVINCIA
 a LISTAS_PROVINCIA_ESTADO y a todas sus referencias. También hay modificaciones en el DML, porque daba error en el cod_país
-de Auckland.
+de Auckland(línea 217).
 */
 
 CREATE TABLE LISTAS_PROVINCIA_ESTADO(
@@ -60,7 +60,8 @@ CREATE TABLE LISTAS_CIUDAD(
 );
 
 /*
- Aquí he quitado nom_ciudad, nom_estado_prov y nom_pais
+ Aquí he quitado nom_ciudad, nom_estado_prov y nom_pais, además, he añadido cod_ciudad,
+ al código de ciudad, valga la reduncancia
  */
 CREATE TABLE LISTAS_ARTISTA(
     COD NUMBER(4) DEFAULT seq_listas_artista.nextval PRIMARY KEY,
@@ -68,7 +69,7 @@ CREATE TABLE LISTAS_ARTISTA(
     COD_CIUDAD NUMBER(3) REFERENCES LISTAS_CIUDAD(COD)
 
 );
-
+--Aquí he hecho cambios en el DML (línea 473)
 CREATE TABLE LISTAS_GRUPO(
     COD NUMBER(4) PRIMARY KEY,
     FCREACION DATE NOT NULL,
@@ -76,6 +77,12 @@ CREATE TABLE LISTAS_GRUPO(
     FOREIGN KEY(COD) REFERENCES LISTAS_ARTISTA
 );
 
+/*
+ Aquí hay algunos insert que tienen diferente formato de dar la fecha que el formato indicado,
+ es decir TO_DATE('17-02-2004','DD/MM/YYYY'); errores en las líneas 516,519,521,523,525
+ Además falta añadir una fecha de nacimiento a 'Pablo Monteagudo' (linea 571). Además, para añadir
+ los dos últimos inserts he tenido que añadir dos artistas más a la tabla artistas
+ */
 CREATE TABLE LISTAS_ARTISTAIND(
     COD NUMBER(4) PRIMARY KEY, 
     nombreReal VARCHAR2(100) UNIQUE not null,
@@ -113,12 +120,16 @@ CREATE TABLE LISTAS_LISTA(
     AUTOR VARCHAR2(50)
 );
 
-/*posicion debe formar parte de la clave primaria (o poner restriccion de unica junto con lista y cancion), porque si no podrían haber posiciones repetCODas en una misma lista para diferentes canciones*/
+/*
+Aqui he añadido posicion a la primary key compuesta y le he quitado la
+restricción única a posición
+
+ */
 CREATE TABLE LISTAS_POSICION_LISTA(
     COD_CANCION NUMBER(4),
     COD_LISTA NUMBER(4),
     POSICION NUMBER(4) NOT NULL,
-    PRIMARY KEY(COD_CANCION, COD_LISTA),
+    PRIMARY KEY(COD_CANCION, COD_LISTA,POSICION),
     FOREIGN KEY(COD_CANCION) REFERENCES LISTAS_CANCION,
     FOREIGN KEY(COD_LISTA) REFERENCES LISTAS_LISTA
 );
@@ -468,6 +479,7 @@ INSERT INTO LISTAS_GRUPO (COD,FCREACION,FDISOLUCION) VALUES (66,TO_date('01-01-1
 INSERT INTO LISTAS_GRUPO (COD,FCREACION,FDISOLUCION) VALUES (68,TO_date('01-01-1970','dd-mm-yyyy'),TO_date('01-01-1971','dd-mm-yyyy'));
 INSERT INTO LISTAS_GRUPO (COD,FCREACION,FDISOLUCION) VALUES (69,TO_date('01-01-1967','dd-mm-yyyy'),null);
 INSERT INTO LISTAS_GRUPO (COD,FCREACION,FDISOLUCION) VALUES (70,TO_date('01-01-1988','dd-mm-yyyy'),TO_date('01-01-1990','dd-mm-yyyy'));
+--Aquí he puesto el TO_DATE que faltaba
 INSERT INTO LISTAS_GRUPO (COD,FCREACION,FDISOLUCION) VALUES (71,TO_DATE('01-01-1965','dd-mm-yyyy'),TO_date('01-01-1995','dd-mm-yyyy'));
 INSERT INTO LISTAS_GRUPO (COD,FCREACION,FDISOLUCION) VALUES (73,TO_date('01-01-1968','dd-mm-yyyy'),TO_date('01-01-1999','dd-mm-yyyy'));
 INSERT INTO LISTAS_GRUPO (COD,FCREACION,FDISOLUCION) VALUES (74,TO_date('01-01-1963','dd-mm-yyyy'),null);
@@ -500,11 +512,16 @@ INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (42,'Beyoncé
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (43,'Mathangi Arulpragasam',TO_date('18-07-1975','dd-mm-yyyy'),null);
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (45,'Shawn Corey Carter',TO_date('04-12-1969','dd-mm-yyyy'),null);
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (47,'Adele Laurie Blue Adkins',TO_date('05-05-1988','dd-mm-yyyy'),null);
+--aqui había error de formato
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (48,'Ella Marija Lani Yelich O''Connor',TO_date('07/11/1996','dd/mm/yyyy'),null);
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (50,'Luis Alfonso Rodríguez López-Cepero',TO_date('15-03-1978','dd-mm-yyyy'),null);
+--aqui había error de formato
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (51,'Edward Christopher Sheeran',TO_DATE('17/02/1991','DD/MM/YYYY'),NULL);
+--aqui había error de formato
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (52,'Katheryn Elizabeth Hudson',TO_DATE('25/10/1984','DD/MM/YYYY'),NULL);
+--aqui había error de formato
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (53,'Justin Drew Bieber',TO_DATE('1/03/1994','DD/MM/YYYY'),NULL);
+--aqui había error de formato
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (54,'Shakira Isabel Mebarak Ripoll',TO_DATE('2/2/1977','DD/MM/YYYY'),NULL);
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (56,'Peter Gene Hernández',TO_date('08-10-1985','dd-mm-yyyy'),NULL);
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (58,'Michael Joseph Jackson',TO_date('29-08-1958','dd-mm-yyyy'),TO_date('25-07-2009','dd-mm-yyyy'));
@@ -550,6 +567,7 @@ INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (111,'Mario V
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (112,'Alberto Zimmer', TO_date('01-06-1983','dd-mm-yyyy'),null);
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (113,'Francisco José Rivera Pantoja', TO_date('09-02-1984','dd-mm-yyyy'),null);
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (115,'Dara Dia', TO_date('26-12-1978','dd-mm-yyyy'),null);
+--Aquí faltaba añadir la fecha de nacimiento
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (116,'Pablo Monteagudo', TO_DATE('1-1-2000','dd-mm-yyyy'),null);
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (117,'Leticia Maria Sabater Alonso', TO_date('21-06-1966','dd-mm-yyyy'),null);
 INSERT INTO LISTAS_ARTISTAIND (COD,NOMBREREAL,FNAC,FMUERTE) VALUES (118,'David Fernandez Ortiz', TO_date('24-06-1970','dd-mm-yyyy'),null);
@@ -1103,3 +1121,9 @@ INSERT INTO LISTAS_POSICION_LISTA (COD_CANCION,COD_LISTA,POSICION) VALUES (136,9
 INSERT INTO LISTAS_POSICION_LISTA (COD_CANCION,COD_LISTA,POSICION) VALUES (137,9,8);
 INSERT INTO LISTAS_POSICION_LISTA (COD_CANCION,COD_LISTA,POSICION) VALUES (138,9,9);
 INSERT INTO LISTAS_POSICION_LISTA (COD_CANCION,COD_LISTA,POSICION) VALUES (139,9,10);
+
+--INSERCCIÓN 10 CANCIONES
+
+INSERT INTO LISTAS_LISTA (NOMBRE,ANYO, FUENTE,AUTOR) VALUES ('Top 3 cancioines de Mary Jane',2025,'https://www.youtube.com/playlist?list=PL6DnBnDD0vV2ZaNsgpzgeF4z9N4Ax68zy','Mary Jane');
+SELECT * FROM LISTAS_LISTA WHERE AUTOR='Maty Jane';
+INSERT INTO LISTAS_PAIS(NOMBRE) VALUES ('Alemania');

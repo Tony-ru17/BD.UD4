@@ -89,9 +89,9 @@
     </schema>
     <schema id="29" parent="1" name="PUBLIC">
       <AutoIntrospectionLevel>1</AutoIntrospectionLevel>
-      <LastIntrospectionL1Timestamp>2025-03-14.11:18:24</LastIntrospectionL1Timestamp>
+      <LastIntrospectionL1Timestamp>2025-03-14.12:25:24</LastIntrospectionL1Timestamp>
       <LastIntrospectionLevel>1</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-03-14.10:18:26</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-03-14.11:25:26</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="30" parent="1" name="REMOTE_SCHEDULER_AGENT">
@@ -125,13 +125,13 @@
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <CreatedTimestamp>2025-03-14.11:13:21</CreatedTimestamp>
       <Current>1</Current>
-      <LastIntrospectionL1Timestamp>2025-03-14.11:18:24</LastIntrospectionL1Timestamp>
-      <LastIntrospectionL2Timestamp>2025-03-14.11:18:24</LastIntrospectionL2Timestamp>
-      <LastIntrospectionL3Timestamp>2025-03-14.11:18:24</LastIntrospectionL3Timestamp>
+      <LastIntrospectionL1Timestamp>2025-03-14.12:25:24</LastIntrospectionL1Timestamp>
+      <LastIntrospectionL2Timestamp>2025-03-14.12:25:24</LastIntrospectionL2Timestamp>
+      <LastIntrospectionL3Timestamp>2025-03-14.12:25:24</LastIntrospectionL3Timestamp>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-03-14.10:18:27</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-03-14.11:25:26</LastIntrospectionLocalTimestamp>
       <LastIntrospectionVersion>200820</LastIntrospectionVersion>
-      <ModifiedTimestamp>2025-03-14.11:18:16</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-03-14.11:35:59</ModifiedTimestamp>
       <ObjectId>110</ObjectId>
     </schema>
     <schema id="40" parent="1" name="WMSYS">
@@ -59884,49 +59884,49 @@
     </sequence>
     <table id="7535" parent="39" name="LISTAS_ARTISTA">
       <CreatedTimestamp>2025-03-14.11:19:33</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
+      <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2025-03-14.11:19:33</ModifiedTimestamp>
       <ObjectId>78101</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="7536" parent="39" name="LISTAS_ARTISTAIND">
       <CreatedTimestamp>2025-03-14.11:21:03</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
+      <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2025-03-14.11:21:03</ModifiedTimestamp>
       <ObjectId>78106</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="7537" parent="39" name="LISTAS_CANCION">
       <CreatedTimestamp>2025-03-14.11:22:07</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
+      <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2025-03-14.11:22:07</ModifiedTimestamp>
       <ObjectId>78109</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="7538" parent="39" name="LISTAS_CIUDAD">
       <CreatedTimestamp>2025-03-14.11:18:52</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
+      <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2025-03-14.11:18:52</ModifiedTimestamp>
       <ObjectId>78099</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="7539" parent="39" name="LISTAS_GENERO">
       <CreatedTimestamp>2025-03-14.11:22:32</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
+      <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2025-03-14.11:22:32</ModifiedTimestamp>
       <ObjectId>78111</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="7540" parent="39" name="LISTAS_GENERO_CANCION">
       <CreatedTimestamp>2025-03-14.11:23:05</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
+      <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2025-03-14.11:23:05</ModifiedTimestamp>
       <ObjectId>78114</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="7541" parent="39" name="LISTAS_GRUPO">
       <CreatedTimestamp>2025-03-14.11:20:36</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
+      <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2025-03-14.11:20:36</ModifiedTimestamp>
       <ObjectId>78104</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
@@ -59947,7 +59947,7 @@
     </table>
     <table id="7544" parent="39" name="LISTAS_POSICION_LISTA">
       <CreatedTimestamp>2025-03-14.11:35:59</CreatedTimestamp>
-      <DetailsLevel>2</DetailsLevel>
+      <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2025-03-14.11:35:59</ModifiedTimestamp>
       <ObjectId>78122</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
