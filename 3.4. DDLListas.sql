@@ -58,8 +58,10 @@ CREATE TABLE LISTAS_CIUDAD(
     NOMBRE VARCHAR2(50),
     PROVINCIA_ESTADO NUMBER(3) REFERENCES LISTAS_PROVINCIA_ESTADO
 );
-/*La ciudad ya se relaciona con la provincia y el pais*/
 
+/*
+ Aquí he quitado nom_ciudad, nom_estado_prov y nom_pais
+ */
 CREATE TABLE LISTAS_ARTISTA(
     COD NUMBER(4) DEFAULT seq_listas_artista.nextval PRIMARY KEY,
 	NOMBREARTISTICO VARCHAR2(50) UNIQUE,
